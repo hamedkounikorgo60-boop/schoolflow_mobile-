@@ -1,0 +1,11 @@
+# Copier ce fichier vers local.properties puis adapter selon le mode de test.
+# Émulateur Android Studio :
+SCHOOLFLOW_API_URL=http://10.0.2.2:8000/api/
+
+# Téléphone réel sur le même réseau : utiliser l'IP du PC qui lance Laravel.
+# Exemple :
+# SCHOOLFLOW_API_URL=http://10.17.26.147:8000/api/
+
+# Téléphone réel via USB + adb reverse :
+# adb reverse tcp:8000 tcp:8000
+# SCHOOLFLOW_API_URL=http://127.0.0.1:8000/api/
